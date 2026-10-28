@@ -1,0 +1,11 @@
+{
+  "name": "abidjan-life-server",
+  "version": "1.0.0",
+  "description": "Serveur multijoueur d'Abidjan Life (comptes, amis, clans, chat, saisons de survie)",
+  "main": "server.js",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
